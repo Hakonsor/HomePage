@@ -1,0 +1,189 @@
+/* bli vtikk att stadarder*/
+
+*{
+margin: 0px;
+padding: 0px;
+list-style-type: none; /* FJERNER bullet poits*/
+}
+p{
+padding: 0px 0px 10px 0px;
+
+}
+.top{
+
+
+}
+.rounded-box{
+	background-color: lightblue;
+ 	width: 25%;
+	text-align: center;
+	padding: 10% 0px;
+	border-radius: 50%;
+	float: left;
+}
+/* retter opp for utdaterte browers*/
+header,nav,article,section,footer,aside{
+	display: block;
+}
+/*centering wensite*/
+.container{
+	position: center;
+	width: 80%;
+	margin: 0px auto;
+
+}
+.clear{
+	clear: both;
+}
+
+
+a.one:link {color:blue;}
+a.one:visited {color:#0000ff;}
+a.one:hover {color:#ffcc00;}
+b {
+	font-weight:bolder;
+}
+.logo{
+	height: 200px;
+	width: 232px;
+	float: left;
+
+}
+
+
+.top-nav{
+	float: left;
+	width: 60%;
+}
+.top-nav ul li{
+	font-weight:bolder;
+	float: left;
+	padding: 10% 30%;
+}
+/* float aside and main section*/
+.left-side{
+float: left;
+width: 75%;
+
+}
+.left-side article{
+border:2px solid gray;
+
+}
+.right-side{
+float: left;
+width: 25%;
+
+}
+.tekst{
+	padding: 0px 0px 10px 0px;
+
+}
+.right-side div{
+margin: 0px 0px 2px 0px; /* top left bottom right*/
+padding: 10px;
+border:2px solid blue;
+
+}
+/*make footer clear floated elements*/
+.page-footer{
+	clear: both;
+	text-align: center;
+}
+/*
+.
+body{
+	margin-top: 0px;
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+
+	
+	background-attachment: fixed;
+}
+*/
+/*
+p{/*
+	color:black;
+	font-family: Arial;
+	font-weight: 500;
+	font-style: italic;
+	font-size: 24px;
+	font: normal normal 13px Tahoma;
+	*//*
+}	
+/*
+p:first-letter{
+	color:blue;
+	font-size: bold;
+	font-size: 25px;
+}
+a:hover{
+
+}
+a:active{
+
+}
+a:visited{
+
+}
+
+.rounded-box{
+	background-color:orange;
+	width:200px;
+	text-align:center;
+	padding:50px 0px;
+	border-radius: 5px;
+}/*
+h1{
+	/*
+	padding-top: 10px;
+	padding-right: 30px;
+	padding-bottom: 40px;
+	padding-left: 50px;
+	
+	padding: 10px 30px 40px 60px;
+	background-color:#00baff;
+	/*
+	border-width: 5px;
+	border-style: dotted;
+	border-color: blue;
+	
+	border:10px ridge lightblue;
+	margin: 0%;
+	*/
+/*}
+.image{
+	float: left;
+}
+.nav{
+}
+
+.top{
+	width: 100%;
+	height:200px;
+	background-color: #00baff;
+}
+
+div{
+	
+	/*
+	height: 1000px;
+	width: 100%;
+	background-image: url(background/background-wallpapers-7.jpg);
+	background-color: orange;
+	
+	border: 0px;
+	margin: 1px solid red%;
+	background-color:;
+	width: 70%;
+*/
+
+/*}
+span{
+	color:green;
+	text-decoration: underline;
+
+}
+
+
